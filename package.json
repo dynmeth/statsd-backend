@@ -1,0 +1,19 @@
+{
+  "author": "David Howell <david@dynamicmethods.com.au>",
+  "name": "statsd-backend",
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "description": "A backend for StatsD to emit stats to another StatsD service",
+  "dependencies": {
+    "statsd-client": ">=0.0.2"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.4"
+  },
+  "keywords": [
+    "statsd"
+  ], 
+  "license": "MIT"
+}
