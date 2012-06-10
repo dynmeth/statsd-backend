@@ -4,6 +4,10 @@
   "version": "0.0.1",
   "main": "./lib/index.js",
   "description": "A backend for StatsD to emit stats to another StatsD service",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dynmeth/statsd-backend.git"
+    },
   "dependencies": {
     "statsd-client": ">=0.0.2"
   },
