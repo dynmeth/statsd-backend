@@ -1,7 +1,7 @@
 {
   "author": "David Howell <david@dynamicmethods.com.au>",
   "name": "statsd-backend",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./lib/index.js",
   "description": "A backend for StatsD to emit stats to another StatsD service",
   "repository": {
@@ -9,7 +9,7 @@
     "url": "https://github.com/dynmeth/statsd-backend.git"
     },
   "dependencies": {
-    "statsd-client": ">=0.0.2"
+    "statsd-client": ">=0.0.4"
   },
   "devDependencies": {},
   "optionalDependencies": {},
