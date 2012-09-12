@@ -4,6 +4,9 @@
 This is a pluggable backend for [StatsD](https://github.com/etsy/statsd), which
 publishes stats to another StatsD service.
 
+## Disclaimer
+This backend is most probably redundant now since statsd now has a repeater backend which effectively serves the same purpose (relay stats to another server). Please let me know your thoughts on this.
+
 ## Installation
 
     npm install statsd-backend
